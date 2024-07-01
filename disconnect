@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Disconnect</title>
+</head>
+<body>
+    <h1>Disconnect Page</h1>
+    <p>The user has disconnected the app.</p>
+    <script>
+        // Handle any cleanup or notifications needed when the app is disconnected
+        console.log('App has been disconnected');
+    </script>
+</body>
+</html>
