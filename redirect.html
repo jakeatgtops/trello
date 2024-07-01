@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Redirect</title>
+</head>
+<body>
+    <h1>Authorization Code</h1>
+    <p id="code"></p>
+    <script>
+        const urlParams = new URLSearchParams(window.location.search);
+        const authorizationCode = urlParams.get('code');
+        document.getElementById('code').innerText = authorizationCode;
+        console.log('Authorization Code:', authorizationCode);
+    </script>
+</body>
+</html>
